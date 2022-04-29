@@ -330,7 +330,7 @@ align-items: center;
 }
 /*-------------------------------------------tablet-----------------------------------------------------*/
 /*inicioMediaQueriesTablet*/
-@media ( min-width :476px) and ( max-width :1023px) 
+@media ( min-width :476px) and ( max-width :990px) 
 {
 
 /*inicioBody*/
@@ -345,8 +345,8 @@ align-items: center;
 /*estructuracongrid*/
 #gridAreas{
     display: grid;
-       grid-template-areas:"cabeza menu lateral"
-        "cabeza menu lateral"
+       grid-template-areas:" menu cabeza lateral"
+        "menu cabeza lateral"
         "hero hero lateral"
         "hero hero lateral"
         "hero hero lateral"
@@ -639,7 +639,7 @@ height: 900px;
 /*finMediaTablet*/
 
 /*-----------------------------------desktop-----------------------------------------------------------*/
-@media (min-width: 1024px)
+@media (min-width: 992px)
 {
     /*inicioBody*/
     .bodyIndex {
@@ -796,6 +796,9 @@ height: 900px;
       }
       .card-img-top {
         background-color: #dadada;
+        .card-img-top{
+          width: 150px; height: 150px;
+        }
     }
     .tituloServicios {
       position: relative;
@@ -911,12 +914,12 @@ height: 900px;
       width: 40%;
       height: 100%;
       position: relative;
-      right: 48%;
+      right: 48px;
     }
     .logoMarcasYBusqueda {
       padding-top: 12%;
       position: relative;
-      right: 30%;
+      right: 30px;
     }
     .imgMarcas {
       position: relative;
